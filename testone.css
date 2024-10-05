@@ -1,0 +1,25 @@
+#hello{
+    background-image: url(https://media.gettyimages.com/id/1498170916/photo/a-couple-is-taking-a-bag-of-food-at-the-food-and-clothes-bank.jpg?s=612x612&w=0&k=20&c=0fnD_g46lvoZ5NdzX5zYOSM4PzM95ezfs5uMe9D1QKs=);
+    height: 30vh;
+    width: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-content: flex-end;
+
+}
+
+
+.donate{
+  justify-content: center;
+
+}
+.cover{
+    background-color: rgb(227, 206, 17);
+    height: 5vh;
+   align-content: flex-end;
+   text-align: center;
+   color: black;
+   display: none;
+}
+

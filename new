@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover to Reveal Text</title>
+  <style>
+    .container {
+      position: relative;
+      width: 300px;
+      height: 200px;
+    background-image: url(https://media.gettyimages.com/id/1498170916/photo/a-couple-is-taking-a-bag-of-food-at-the-food-and-clothes-bank.jpg?s=612x612&w=0&k=20&c=0fnD_g46lvoZ5NdzX5zYOSM4PzM95ezfs5uMe9D1QKs=);
+    /* Replace with your image path */
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hidden-text {
+      display: none; /* Hide the text initially */
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    /* Reveal text on hover */
+    .container:hover .hidden-text {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hidden-text">This is the hidden text!</div>
+  </div>
+</body>
+</html>

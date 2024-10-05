@@ -1,0 +1,147 @@
+
+.one{
+    display: flex;
+    flex-direction: row;
+    
+}
+.two {
+    display: flex;
+    flex-direction: row;   
+}
+.Fline{
+    margin: 10px;
+    color: rgb(146, 123, 8);
+    font-weight: 500;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-link{
+    color: black;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.HFHL{
+    display: flex;
+    flex-direction: row;
+    
+}
+.lheading{
+    padding-top: 5px;
+    
+}
+#carouselExampleCaptions{
+    height: 60vh;
+}
+.d-block{
+    height: 60vh;
+}
+h1{
+    text-align: center;
+    margin: 15px;
+}
+
+
+.card{
+    background-color: #F6F4EE;
+}
+.foundation-text{
+    text-align: justify;
+    margin-right: 25px;
+   
+}
+
+.valonter-text{
+    margin-right: 25px;
+}
+.email{
+border-radius: 40px;
+width: 50%;
+height: 20%;
+
+}
+.btn-warning{
+    width: 20%;
+    border-radius: 40px;
+    height: 20%;
+    margin-left: 15px;
+}
+.valonter{
+padding-top: 5%;
+}
+.funds{
+    padding-top:5% ;
+}
+
+.team{
+    background-image: url(https://shorturl.at/Fypyh);
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-list .card-item .user-image{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    border: 3px solid #F6F4EE;
+    padding: 4px;;
+}
+.card-list .card-item{
+    color: rgb(13, 0, 0);
+    background-color: rgba(73, 51, 51, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 35px;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(10px);
+}
+
+
+.card-list .card-item .user-proffision {
+    font-size: 1.15rem;
+    color: #F6F4EE;
+    font-weight: 500;
+    margin: 14px 0 40px;
+
+}
+.margin-btton{
+        font-size: 1.25rem;
+        padding: 10px 35px;
+        border-radius: 6px;
+        color: rgb(25, 22, 33);
+        font-size: 400;
+        cursor: pointer;
+        background: #F6F4EE;
+        border: 1px solid transparent;
+        transition: 0.2s ease;
+}
+.margin-btton:hover{
+    background-color: rgb(67, 163, 195);
+
+
+}
+.slider-wrapper{
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 70px 55px;
+}

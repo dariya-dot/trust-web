@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./testone.css">
+    
+    <style>
+        #hello {
+            background-image: url(https://media.gettyimages.com/id/1498170916/photo/a-couple-is-taking-a-bag-of-food-at-the-food-and-clothes-bank.jpg?s=612x612&w=0&k=20&c=0fnD_g46lvoZ5NdzX5zYOSM4PzM95ezfs5uMe9D1QKs=);
+            height: 30vh;
+            width: 30vh;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            align-content: flex-end;
+        }
+
+
+
+        .cover {
+            background-color: rgb(227, 206, 17);
+            height: 5vh;
+            text-align: center;
+            color: black;
+            display: none; /* Initially hidden */
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-12" id="hello">
+            <div class="cover" id="cover">Donate now</div>
+        </div>
+    </div>
+  </div>
+
+  <script>
+    // Get the elements
+    const helloElement = document.getElementById('hello');
+    const coverElement = document.getElementById('cover');
+
+    // Show the cover on mouseover
+    helloElement.addEventListener('mouseover', () => {
+      coverElement.style.display = 'block';
+    });
+
+    // Hide the cover on mouseout
+    helloElement.addEventListener('mouseout', () => {
+      coverElement.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
